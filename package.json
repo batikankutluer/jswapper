@@ -1,0 +1,20 @@
+{
+  "name": "jswapper",
+  "version": "1.0.3",
+  "description": "ITU Blockchain - Study Task #1",
+  "main": "start.js",
+  "type": "module",
+  "bin": {
+    "jswapper": "./start.js"
+  },
+  "scripts": {
+    "start": "node . start"
+  },
+  "author": "Batikan Kutluer",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^5.1.0",
+    "inquirer": "^12.1.0"
+  }
+}
